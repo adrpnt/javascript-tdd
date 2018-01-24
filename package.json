@@ -1,9 +1,11 @@
 {
-  "name": "javascript tdd",
+  "name": "javascript-tdd-course",
   "version": "1.0.0",
   "description": "Projeto para estudar TDD com Javascript.",
   "main": "index.js",
   "scripts": {
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "pre-push": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/adrpnt/javascript-tdd/issues"
   },
-  "homepage": "https://github.com/adrpnt/javascript-tdd#readme"
+  "homepage": "https://github.com/adrpnt/javascript-tdd#readme",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "husky": "^0.15.0-rc.3"
+  }
 }
