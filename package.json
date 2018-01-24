@@ -1,0 +1,19 @@
+{
+  "name": "javascript tdd",
+  "version": "1.0.0",
+  "description": "Projeto para estudar TDD com Javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrpnt/javascript-tdd.git"
+  },
+  "author": "Adriano Vasconcelos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adrpnt/javascript-tdd/issues"
+  },
+  "homepage": "https://github.com/adrpnt/javascript-tdd#readme"
+}
